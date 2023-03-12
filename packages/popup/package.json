@@ -1,6 +1,6 @@
 {
   "name": "vue-functional-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "suruis",
   "license": "MIT",
   "main": "dist/vue-functional-popup.js",
@@ -13,7 +13,7 @@
     "dist/vue-functional-popup.js",
     "dist/vue-functional-popup.es.js",
     "dist/vue-functional-popup.d.ts",
-    "README.md"
+    "../../README.md"
   ],
   "sideEffects": false,
   "repository": {
