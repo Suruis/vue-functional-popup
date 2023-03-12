@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vue": "^3.2.45",
-    "vue-functional-popup": "workspace:^0.1.0"
+    "vue-functional-popup": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
