@@ -1,18 +1,18 @@
 <h1 align="center">vue-functional-popup</h1>
 
 <div align="center">
-A simple way to call popovers without constantly referencing, registering, and defining parameters.
+一个简单的方式去调用弹窗，不用频繁引用、注册、定义参数。
 </div>
 
-## Install
+## 安装
 
 ```bash
 npm install --save vue-functional-popup
 ```
 
-## Usage
+## 示例
 
-1. create and use
+1. 创建实例并使用插件
 
 ```js
 import Popup from 'vue-functional-popup'
@@ -27,26 +27,26 @@ const popup = new Popup()
 createApp(App).use(popup)
 ```
 
-2. in setup()
+2. 在 'setup()' 里面使用
 
 ```js
 // setup()
 import Popup, { usePopup } from 'vue-functional-popup'
 import ComponentPopup from './ComponentPopup.vue'
-// first register
-Popup.register('popup_name', () => import('./ComponentPopup.vue')) // lazy load
-Popup.register('popup_name2', ComponentPopup) // register
+// 先注册
+Popup.register('popup_name', () => import('./ComponentPopup.vue')) // 懒加载注册
+Popup.register('popup_name2', ComponentPopup) // 直接注册
 
-// second use
+// 再使用
 const popup = usePopup()
 let promisePopup = popup.show('popup_name') // 如果有注册的话
 
-// use without register
+// 不注册直接使用
 promisePopup = popup.show(ComponentPopup, { callback })
 const handler = popup.show(ComponentPopup, { callback }, true)
 ```
 
-3. in methods
+3. 在 'methods: {}' 里面使用
 
 ```js
   say() {
@@ -54,7 +54,7 @@ const handler = popup.show(ComponentPopup, { callback }, true)
   }
 ```
 
-4. [more example](./packages/playground/)
+4. [更多例子](./packages/playground/)
 
 ## 许可
 
