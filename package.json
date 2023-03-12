@@ -1,6 +1,5 @@
 {
   "name": "vue-functional-popup",
-  "private": true,
   "license": "MIT",
   "packageManager": "pnpm@7.29.1",
   "type": "module",
