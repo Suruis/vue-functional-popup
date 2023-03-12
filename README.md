@@ -4,6 +4,8 @@
 A simple way to call popovers without constantly referencing, registering, and defining parameters.
 </div>
 
+[简体中文](./README-zh_CN.md) | English
+
 ## Install
 
 ```bash
