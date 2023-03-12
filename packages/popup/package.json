@@ -13,7 +13,7 @@
     "dist/vue-functional-popup.js",
     "dist/vue-functional-popup.es.js",
     "dist/vue-functional-popup.d.ts",
-    "../../README.md"
+    "README.md"
   ],
   "sideEffects": false,
   "repository": {

@@ -4,8 +4,6 @@
 A simple way to call popovers without constantly referencing, registering, and defining parameters.
 </div>
 
-[简体中文](./README-zh_CN.md) | English
-
 ## Install
 
 ```bash
@@ -56,8 +54,8 @@ const handler = popup.show(ComponentPopup, { callback }, true)
   }
 ```
 
-4. [more example](./packages/playground/)
+4. [more example](../playground/)
 
 ## License
 
-[MIT License](./LICENSE).
+[MIT License](../..//LICENSE).
